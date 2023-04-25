@@ -10228,3 +10228,19 @@ audio {
 .color_white {
   color: #FFF !important;
 }
+#contenedor-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  flex-direction: column;
+  text-align: center;
+}
+#mi-video {
+  max-width: 100%;
+  max-height: 100%;
+}
+#h1 {
+margin-top: 20px;
+}
