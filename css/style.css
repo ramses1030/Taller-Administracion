@@ -2387,34 +2387,34 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #702978;
+  border-color: #702978;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #d95700;
-  border-color: #cc5200;
+  background-color: #702978;
+  border-color: #702978;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #d95700;
-  border-color: #cc5200;
+  background-color: #702978;
+  border-color: #702978;
   box-shadow: 0 0 0 0.2rem rgba(255, 125, 38, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #702978;
+  border-color: #702978;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #cc5200;
-  border-color: #bf4d00;
+  background-color: #702978;
+  border-color: #702978;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -9882,7 +9882,7 @@ h6,
 }
 
 .bg-author-iot {
-  background-color: #1976D2;
+  background-color: #A46DAB;
 }
 
 
@@ -10326,4 +10326,7 @@ margin-top: 20px;
 
 .contenidos h3 {
   margin-top: 0;
+}
+body {
+  overflow-x: hidden;
 }

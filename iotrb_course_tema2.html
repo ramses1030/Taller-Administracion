@@ -2,11 +2,11 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Internet of Things - My Cloud School</title>
+    <title>Taller de Administración</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="iot mycloudschool cursos" name="keywords">
     <meta content="Internet" name="description">
-    <link rel="icon" href="img/favicon.png">    <!-- Favicon -->
+    <link rel="icon" href="assets/imgs/favicon.png">
     <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"><!-- Font Awesome -->
@@ -17,19 +17,18 @@
     <script defer src="js/video_content.js"></script>
     <script defer src="js/sidenav.js"></script>
 </head>
-</head>
 
 <body>
-	<!-- Topbar Start -->
+	<!-- Inicia el Header -->
 	<header class="container-fluid d-none d-lg-block">
         <div class="row align-items-center py-4 px-xl-5">
-			<div class="col-lg-3">
+			<!--<div class="col-lg-3">
 
                 <a href="index.html" class="text-decoration-none d-flex">
-                    <h1 class="m-0 align-self-center"><span class="text-primary">My</span>CloudSchool</h1>
+                    <h1 class="m-0 align-self-center"><span class="text-primary" style="color: green">Taller</span> de Administración</h1>
                 </a>
-            </div>
-            <div class="col-lg-3 text-right">
+            </div>-->
+            <!--<div class="col-lg-3 text-right">
             	<div class="d-inline-flex align-items-center">
             		<i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
             		<div class="text-left">
@@ -43,7 +42,7 @@
                     <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
                         <div class="text-left">
                             <h6 class="font-weight-semi-bold mb-1">Email</h6>
-                            <small>mycloudschool@</small>
+                            <small>innovatec.curso@mail.com</small>
                         </div>
                 </div>
             </div>
@@ -55,11 +54,10 @@
 						<small>5513345224</small>
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
     </header>
-    <!-- Topbar End -->
-
+    <!--  Termina el Header -->
 
     <div class="container m-auto m-0">
     <!-- About Start -->
@@ -68,18 +66,24 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <div class="text-center mb-4">
-                            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Internet of Things</h5>
-                            <h1>Estación Climatológica con Raspberry Pi y Azure IoT Hub</h1>
+                            <!--<h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Taller de Administración</h5>-->
+                            <a href="index.html" class="text-decoration-none d-flex">
+                                <h3 class="m-0 align-self-center pi_color_secundario"><span class="pi_color_primario">Taller</span> de Administración
+                                </h3>
+                            </a>
                         </div>
-                        <p class="text-justify">En este curso, se explicarán desde cero los fundamentos del Internet de las Cosas (IoT). Abarcaremos conceptos básicos, definiciones y se explicará el funcionamiento de estas tecnologías.</p>
-                        <p class="text-justify">Además, los expositores presentarán un ejemplo práctico sobre el funcionamiento del IoT, donde fabricarán una estación climatológica utilizando el sensor de presión barométrica <b>BMP280</b>, la mini computadora <b>Raspberry Pi 3</b> y el servicio en la nube <b>Azure IoT Hub</b>, para monitorear los datos entrantes, que serán capturados utilizando <b>Python3</b> y la plataforma de desarrollo <b>.NET.</b> Finalmente, utilizando <b>Node.js</b> y <b>Docker</b>, desarrollarán una WebApp donde podremos ver los cambios de temperatura en tiempo real.
+                        <p class="text-justify">Esta asignatura aporta al perfil del Ingeniero en sistemas computacionales la capacidad de coordinar y participar en proyectos interdisciplinarios y una visión empresarial para detectar áreas de oportunidad que le permitan emprender y desarrollar proyectos aplicando las tecnologías de la información y comunicación.
+                            La materia consiste en la identificación de las áreas básicas de una organización, su administración y su entorno considerando el aspecto de tomas de decisiones y la dinámica del proceso administrativo. Esta asignatura se relaciona con los temas de etapas de la administración de proyecto y metodología de administración de proyectos con la materia de gestión de proyectos de software y con los temas de desempeño gerencial y organizacional con la materia de cultura empresarial.
                         </p>
+                        
                     </div>
                 </div>
                 <div id="open_nav">Antecedentes Necesarios</div>
-                <img id="ante_icon" src="assets/imgs/iot/ante_icono.png" style="width: 75px;">
+                <img id="ante_icon" src="assets/imgs/lupa.png" style="width: 43px;">
             </div>
         </div>
+
+        <!-- Side Drawer-->
 
         <div id="mySidenav" class="sidenav">
             <div class="ml-3 d-inline-block">
@@ -88,155 +92,421 @@
                 <a style="width: 25%;" href="javascript:void(0)" id="close-nav" onclick="closeNav()">&#215</a>
             </div>
 
-            <div class="podcast-cont vid video-content vid04 width-100"> <!-- Podcast Video 4-->
-                
-                <p>¿Qué es Linux?</p>
+
+            <div class="podcast-cont vid video-content vid01"> <!-- Podcast Video 1-->
+                <p>Importancia de Administración</p>
                 <audio controls>
-                    <source preload="auto" src="assets/audios/vid04/MCS_IOTRB_vid04_pod01.mp3" id="iframeAudio">
+                    <source preload="auto" src="assets/audios/Talleradmi_pod01.mp3" id="iframeAudio">
                 </audio>
-                <p>¿Qué es Raspberry Pi?</p>
+                <p>¿Qué es Taller de Administración?</p>
                 <audio controls>
-                    <source preload="auto" src="assets/audios/vid04/MCS_IOTRB_vid04_pod02.mp3" id="iframeAudio">
+                    <source preload="auto" src="assets/audios/Talleradmi_pod03.mp3" id="iframeAudio">
                 </audio>
-                <p>¿Qué es un USB Booteable?</p>
+                <p>¿Qué es el Sistema Empresarial?</p>
                 <audio controls>
-                    <source preload="auto" src="assets/audios/vid04/MCS_IOTRB_vid04_pod03.mp3" id="iframeAudio">
+                    <source preload="auto" src="assets/audios/Talleradmi_pod02.mp3" id="iframeAudio">
                 </audio>
             </div>
 
-            <div class="podcast-cont vid video-content vid05 width-100 display-none"> <!-- Podcast Video 5-->
-                
-                <p>¿Qué es una Protoboard?</p>
+            <div class="podcast-cont vid video-content vid02 display-none"> <!-- Podcast Video 2-->
+
+                <p>¿Qué es una empresa?</p>
                 <audio controls>
-                    <source preload="auto" src="assets/audios/vid05/MCS_IOTRB_vid05_pod01.mp3" id="iframeAudio">
+                    <source preload="auto" src="assets/audios/Talleradmi_pod04.mp3" id="iframeAudio">
                 </audio>
-                <p>¿Qué es el sensor BMP280?</p>
+                <p>Publicidad</p>
                 <audio controls>
-                    <source preload="auto" src="assets/audios/vid05/MCS_IOTRB_vid05_pod02.mp3" id="iframeAudio">
+                    <source preload="auto" src="assets/audios/Talleradmi_2.2_pod01.mp3" id="iframeAudio">
+                </audio>
+                <p>Relaciones públicas</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.2_pod02.mp3" id="iframeAudio">
+                </audio>
+                <p>Redes sociales</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.2_pod03.mp3" id="iframeAudio">
+                </audio>
+                <p>Sitio web</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.2_pod04.mp3" id="iframeAudio">
+                </audio>
+                <p>Comunicación de marketing</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.2_pod05.mp3" id="iframeAudio">
+                </audio>
+                <p>Relaciones con los medios de comunicación</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.2_pod06.mp3" id="iframeAudio">
+                </audio>
+                <p>Entorno Externo</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_pod05.mp3" id="iframeAudio">
+                </audio>
+                <p>Entorno Interno</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_pod06.mp3" id="iframeAudio">
                 </audio>
             </div>
 
-            <div class="podcast-cont vid video-content vid06 width-100 display-none"> <!-- Podcast Video 6-->
+            <div class="podcast-cont vid video-content vid03 width-100 display-none"> <!-- Podcast Video 3-->
                 
-                <p>¿Qué es el Protocolo I2E?</p>
+                <p>Capital y financiamiento</p>
                 <audio controls>
-                    <source preload="auto" src="assets/audios/vid06/MCS_IOTRB_vid06_pod01.mp3" id="iframeAudio">
+                    <source preload="auto" src="assets/audios/Talleradmi_2.3_pod01.mp3" id="iframeAudio">
                 </audio>
-                <p>¿Qué es el Protocolo SSH?</p>
+                <p>Recursos humanos</p>
                 <audio controls>
-                    <source preload="auto" src="assets/audios/vid06/MCS_IOTRB_vid06_pod02.mp3" id="iframeAudio">
+                    <source preload="auto" src="assets/audios/Talleradmi_2.3_pod02.mp3" id="iframeAudio">
                 </audio>
-                <p>Usos del Protocolo SSH.</p>
+                <p>Infraestructura y activos</p>
                 <audio controls>
-                    <source preload="auto" src="assets/audios/vid06/MCS_IOTRB_vid06_pod03.mp3" id="iframeAudio">
+                    <source preload="auto" src="assets/audios/Talleradmi_2.3_pod03.mp3" id="iframeAudio">
+                </audio>
+                <p>Propiedad intelectual y conocimientos</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.3_pod04.mp3" id="iframeAudio">
+                </audio>
+                <p>Cultura y valores corporativos</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.3_pod05.mp3" id="iframeAudio">
+                </audio>
+                <p>Procesos y sistemas operativos</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.3_pod06.mp3" id="iframeAudio">
+                </audio>
+            </div>
+            <div class="podcast-cont vid video-content vid04 width-100 display-none"> <!-- Podcast Video 4-->
+                
+                <p>¿En sí, qué es la cultura corporativa?</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.4_pod00.mp3" id="iframeAudio">
+                </audio>
+                <p>Valores y creencias</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.4_pod01.mp3" id="iframeAudio">
+                </audio>
+                <p>Normas y tradiciones</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.4_pod02.mp3" id="iframeAudio">
+                </audio>
+                <p>Comunicación</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.4_pod03.mp3" id="iframeAudio">
+                </audio>
+                <p>Liderazgo</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.4_pod04.mp3" id="iframeAudio">
+                </audio>
+                <p>Reconocimiento y recompensas</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.4_pod05.mp3" id="iframeAudio">
+                </audio>
+                <p>Diversidad e inclusión</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.4_pod06.mp3" id="iframeAudio">
+                </audio>
+                <p>Orientación al cliente</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.4_pod07.mp3" id="iframeAudio">
+                </audio>
+            </div>
+            <div class="podcast-cont vid video-content vid05 width-100 display-none"> <!--Podcast 5-->
+                <p>¿Qué es la globalización?</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.5_pod01.mp3" id="iframeAudio">
+                </audio>
+                <p>¿En qué consiste?</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.5_pod02.mp3" id="iframeAudio">
+                </audio>
+                <p>Mercados globales</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.5_pod03.mp3" id="iframeAudio">
+                </audio>
+                <p>Diversidad cultural</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.5_pod04.mp3" id="iframeAudio">
+                </audio>
+                <p>Gestión de la cadena de suministro global</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.5_pod05.mp3" id="iframeAudio">
+                </audio>
+                <p>Tecnología de la información</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.5_pod06.mp3" id="iframeAudio">
+                </audio>
+                <p>Gestión del talento global</p>
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Talleradmi_2.5_pod07.mp3" id="iframeAudio">
                 </audio>
             </div>
         </div>
     <!-- About End -->
         <div class="main-video-container">
-            <video src="videos/MCS_IOTRB_vid04.mp4" controls poster="assets/imgs/iot/raspi.jpg" preload="auto" class="main-video"></video>
-            <h2 class="main-vid-title font-size-1em">Instalando Raspberry Pi OS</h2>
+            <video src="assets/videos/Taller de admi video 02.mp4" controls poster="assets/slides/vid01/MCS_IOTRB_vid01_sli01.jpg" preload="auto" class="main-video"></video>
+            <h2 class="main-vid-title font-size-1em">Modelos de sistemas</h2>
         </div>
-
         
         <div class="video-list-container">
-
-            <div class="list vid04 active">
-                <video src="assets/videos/MCS_IOTRB_vid04.mp4" class="list-video"></video>
-                <h2 class="list-title">Instalando Raspberry Pi OS</h2>
+            <div class="list active vid01">
+                <video src="assets/videos/Taller de admi video 02.mp4" class="list-video"></video>
+                <h2 class="list-title">2.1 Modelos de sistemas</h2>
+            </div>
+            <div class="list vid02">
+                <video src="assets/videos/Taller de admi video 04.mp4" class="list-video"></video>
+                <h2 class="list-title">2.2 Medios externos de las empresas</h2>
+            </div>
+            <div class="list vid03">
+	    	    <video src="assets/videos/Taller de admi video 05.mp4" class="list-video"></video>
+		        <h2 class="list-title">2.3 Medios internos de las empresas</h2>
+            </div>
+            <div class="list vid04">
+	    	    <video src="assets/videos/cultura corporativa.mp4" class="list-video"></video>
+		        <h2 class="list-title">2.4 Cultura corporativa</h2>
             </div>
             <div class="list vid05">
-                <video src="assets/videos/MCS_IOTRB_vid05.mp4" class="list-video"></video>
-                <h2 class="list-title">Montando el sensor BMP280</h2>
+	    	    <video src="assets/videos/globalizacion.mp4" class="list-video"></video>
+		        <h2 class="list-title">2.5 La globalización y la administración</h2>
             </div>
-            <div class="list vid06">
-                <video src="assets/videos/MCS_IOTRB_vid06.mp4" class="list-video"></video>
-                <h2 class="list-title">Habilitando Interface I2C y servidor SSH</h2>
-            </div>
-           
         </div>
-        <div class="d-flex width-100 justify-content-around font-size-1-5em">
-            <a class="tema-container" href="iotrb_course_tema1.html">Tema Anterior</a>
-            <a class="tema-container" href="iotrb_course_tema3.html">Tema Siguiente</a>
-        </div>
+        
+        <!--<div class="d-flex width-100 justify-content-around font-size-1-5em">
+            <a class="tema-container" href="#">Tema Anterior</a>
+            <a class="tema-container" href="iotrb_course_tema2.html">Tema Siguiente</a>
+        </div>-->
 <!-- Contenido por video -->
-    <div class="container m-auto m-0 pt-5">
+<div class="container m-auto m-0">
+        
+        <div class="vid video-content vid01 width-100">  <!--Contenido Video 1--> 
+            <h2 class="mb-3 text-center">Modelos de Sistemas</h2>
+            <div>  <!--Presentación No. 1-->
+                <!--<h4>Contenido del Video</h4>-->
+                <div class="width-100 d-flex overflow-hidden slides-container ">
+                    <img src="assets//imgs/presentacion_sistemabierto_01.png" class="width-100">
+                    <img src="assets/imgs/presentacion_sistemabierto_02.png" class="width-100">
+                    <img src="assets/imgs/presentacion_sistemabierto_03.png" class="width-100">
+                    <img src="assets/imgs/presentacion_sistemabierto_04.png" class="width-100">
+                    <img src="assets/imgs/sistemaabierto5.png" class="width-100">
+                </div>
+                <div class="width-100 d-flex justify-content-between p-5">
+                    <button style="border-radius: 25px;" class="previous-slide slide-button ar-4-1">	&#60;</button>
+                    <button style="border-radius: 25px;" class="next-slide slide-button ar-4-1">&#62;</button>
+                </div>
+            </div>  <!-- Presentación No. 1-->
 
+                <article>
 
-        <div class="vid video-content vid04 width-100">
-            <h2 class="mb-3 text-center">RECURSOS VIDEO 4</h2>
-            <div> <!-- Presentación No. 4-->
+                    <h2 class="mb-3 text-center">Introducción</h2>
+            
+                    <p> El entorno de la empresa hace referencia a los factores externos que influyen en la empresa y en su actividad y, desde luego, es tan relevante como las actividades diarias de los empleados.
+                        El analisis del entorno de cualquier empresa implica un estudio de gran profundidad y resulta de gran trascendencia.</p>
+            
+                    <p>La empresa es un sistema, que está formada por una serie de elementos, que se organizan y se relacionan entre sí, estos elementos se organizan a su vez en subsistemas como:</p>
+                    <div>
+                        <img src="assets/imgs/sistemasubtema.png" class="width-100">
+                    </div>
+                    <br>• El área de producción y aprovisionamiento.
+                        <br>•El área comercial.</br>
+                        • El área de recursos humanos que también se relacionan entre sí.</p>
+
+                        <h2 class="mb-3 text-center">Sistema Empresarial</h2>
+                        <p>En ocasiones, los proveedores o los clientes tienen mucho poder de negociación debido a su tamaño, e imponen sus condiciones a las empresas.</p>
+                        <div><img src="assets/imgs/sistemaempresarial.png" class="width-100"></div>
+            </article>
+
+        </div>  <!-- Contenido Video 1 -->
+    
+        <div class="vid video-content vid02 width-100 display-none">
+            <h2 class="mb-3 text-center">Medios de las empresas</h2>
+            <div>  <!--Presentación No. 2-->
+                <!--<h4>Contenido del Video</h4>-->
+                <div class="width-100 d-flex overflow-hidden slides-container ">
+                    <img src="assets/imgs/mediosdelasempresas.png"class="width-100">
+                </div>
+                <!--<div class="width-100 d-flex justify-content-between p-5">
+                    <button style="border-radius: 25px;" class="previous-slide d-inline-block width-20 ar-4-1">	&#60;</button>
+                    <button style="border-radius: 25px;" class="next-slide d-inline-block width-20 ar-4-1">&#62;</button>
+                </div>-->
+            </div>  <!--Presentación No. 2-->
+
+            <article>
+                <br><p>La administración entonces es un proceso a través del cual se coordinan y optimizan los recursos de un grupo social con el fin de lograr la máxima eficacia, calidad y productividad en la consecución de sus objetivos.
+
+                    La estrategia empresarial hace referencia al conjunto de acciones que conducen a una ventaja competitiva a largo plazo, lo cual resulta imprescindible para llevar a cabo el análisis del entorno de la empresa, pues es necesario adaptarse a éste.</p>
+            </article>
+        </div>  <!--Contenido Video 2 -->
+        
+        <div class="vid video-content vid03 width-100 display-none">
+            <h2 class="mb-3 text-center">El entorno específico</h2>
+            <!--<div>  Presentación No. 3
                 <h4>Contenido del Video</h4>
                 <div class="width-100 d-flex overflow-hidden slides-container ">
-                    <img src="assets/slides/vid04/MCS_IOTRB_vid04_sli01.jpg" class="width-100">
-                    <img src="assets/slides/vid04/MCS_IOTRB_vid04_sli02.jpg" class="width-100">
-                    <img src="assets/slides/vid04/MCS_IOTRB_vid04_sli03.jpg" class="width-100">
-                    <img src="assets/slides/vid04/MCS_IOTRB_vid04_sli04.jpg" class="width-100">
-                    <img src="assets/slides/vid04/MCS_IOTRB_vid04_sli05.jpg" class="width-100">
-                    <img src="assets/slides/vid04/MCS_IOTRB_vid04_sli06.jpg" class="width-100">
-                    <img src="assets/slides/vid04/MCS_IOTRB_vid04_sli07.jpg" class="width-100">
-                    <img src="assets/slides/vid04/MCS_IOTRB_vid04_sli08.jpg" class="width-100">
-                    <img src="assets/slides/vid04/MCS_IOTRB_vid04_sli09.jpg" class="width-100">
-                    <img src="assets/slides/vid04/MCS_IOTRB_vid04_sli10.jpg" class="width-100">
-                    <img src="assets/slides/vid04/MCS_IOTRB_vid04_sli11.jpg" class="width-100">
-                    <img src="assets/slides/vid04/MCS_IOTRB_vid04_sli12.jpg" class="width-100">
-                    <img src="assets/slides/vid04/MCS_IOTRB_vid04_sli13.jpg" class="width-100">
-                    <img src="assets/slides/vid04/MCS_IOTRB_vid04_sli14.jpg" class="width-100">
-                    <img src="assets/slides/vid04/MCS_IOTRB_vid04_sli15.jpg" class="width-100">
-                    <img src="assets/slides/vid04/MCS_IOTRB_vid04_sli16.jpg" class="width-100">
+                    <img src="assets/imgs/Entornoespecifico.png" class="width-100">
+                    <img src="assets/imgs/Entornoespecifico1.png" class="width-100">
+                    <img src="assets/imgs/presentacion_sistemabierto_03.png" class="width-100">
+                    <img src="assets/imgs/presentacion_sistemabierto_04.png" class="width-100">
+                    <img src="assets/imgs/sistemaabierto5.png" class="width-100">
                 </div>
                 <div class="width-100 d-flex justify-content-between p-5">
                     <button style="border-radius: 25px;" class="previous-slide d-inline-block width-20 ar-4-1">	&#60;</button>
                     <button style="border-radius: 25px;" class="next-slide d-inline-block width-20 ar-4-1">&#62;</button>
                 </div>
-            </div><!-- Presentación No. 4-->
-        </div> <!-- Contenido Video 4 -->
+            </div>--> <!--Presentación No. 3-->
+            <article>
+                <p>El análisis del entorno específico es fundamental a la hora de decidir dónde se ubica la empresa. <br>Los principales componentes del entorno específico son los siguientes:</p>
+                    <br><img src="assets/imgs/Entornoespecifico.png" class="width-100">
+                    <br><img src="assets/imgs/Entornoespecifico1.png" class="width-100">
+                    <br><h2 class="mb-3 text-center">El entorno general</h2>
+                    <p>En este caso nos referimos a factores más difíciles de controlar, no tan directamente vinculados a la empresa pero que en muchas ocasiones tienen una influencia decisiva.</p>
+                    <br><img src="assets/imgs/Componentes_entorno.png" class="width-100">
+                    <br><img src="assets/imgs/Componentes_entorno_general.png" class="width-100">
+                    <br><h2 class="mb-3 text-center">Técnica para analizar el entorno de una empresa</h2>
+                    <br><img src="assets/imgs/entornodeempresa.png" class="width-100">
+            </article>
+        </div>  <!--Contenido Video 3 -->
+        <div class="vid video-content vid04 width-100 display-none">
+        <!--<h2 class="mb-3 text-center">RECURSOS VIDEO 4</h2>
+            <div>  Presentación No. 4
+                <h4>Contenido del Video</h4>
+                <div class="width-100 d-flex overflow-hidden slides-container ">
+                    <img src="assets/imgs/presentacion_sistemabierto_01.png" class="width-100">
+                    <img src="assets/imgs/presentacion_sistemabierto_02.png" class="width-100">
+                    <img src="assets/imgs/presentacion_sistemabierto_03.png" class="width-100">
+                    <img src="assets/imgs/presentacion_sistemabierto_04.png" class="width-100">
+                    <img src="assets/imgs/sistemaabierto5.png" class="width-100">
+                </div>
+                <div class="width-100 d-flex justify-content-between p-5">
+                    <button style="border-radius: 25px;" class="previous-slide d-inline-block width-20 ar-4-1">	&#60;</button>
+                    <button style="border-radius: 25px;" class="next-slide d-inline-block width-20 ar-4-1">&#62;</button>
+                </div>
+            </div> Presentación No. 4-->
+            <article>
+                <h2 class="mb-3 text-center">Cultura corporativa</h2>
+                <p>La definición de cultura organizacional o corporativa enfatiza los supuestos y profundos patrones de significado, los valores, las normas y las expectativas, filosofías, marcos de referencia o las regularidades conductuales observables como los ritos, rituales, y estructuras (Abrahamson y Fombrun, 1974).</p>
+                <img src="assets/imgs/Nuevaimagen.png" class="width-100">
 
+                <p><br>En sí, constituye el conjunto de normas, valores y pautas de conducta que comparten todos los que integran la empresa, que a su vez se reflejada en su comportamiento que alinea a los empleados, con la misión, visión y sobre todo con los valores corporativos para posteriormente ser enseñados a los nuevos miembros. <br>Estos son algunos de los factores que lo determina:</p>
+                <img src="assets/imgs/personalidad.png" class="width-100">
+
+                <p><br>La cultura es un factor de integración, ya que los miembros del grupo para sentirse parte deben cumplir con las pautas establecidas. Se puede trabajar y gestionar sobre la misma para alinearla con la filosofía y lograr una identidad coherente en todos los sentidos.</p>
+                <img src="assets/imgs/personalidad2.png" class="width-100">
+                <div id="contenedor-video">
+                    <h4>Cabe mencionar que la cultura corporativa es determinante en el éxito o fracaso de una empresa por que se refleja en prácticas, políticas y comportamientos que influirian directamente en la actitud y rendimiento de sus empleados.</h4>
+                    <video id="mi-video" controls>
+                    <source src="assets/videos/Amazonvid.mp4" type="video/mp4">
+                    </video>
+                    </div>
+                <h2 class="mb-3 text-center">Ventajas de la cultura corporativa</h2>
+                <p><br>Los beneficios de contar con una cultura corporativa sólida y compartida por todos los miembros de la empresa son muchos.</p>
+                <img src="assets/imgs/nivelexterno.png" class="width-100">
+                <img src="assets/imgs/nivelinterno.png" class="width-100">
+
+                <p><br>En resumen, ejecutar de forma satisfactoria la cultura empresarial se traduce en ventajas competitivas y posicionamiento de mercado. Por esta razón de peso, sería un grave error dejarla a la deriva. </p>
+                <img src="assets/imgs/culturaempresarial.png" class="width-100">
+
+                <h2 class="mb-3 text-center">Impacto de la cultura corporativa en la organización.</h2>
+                <p><br>Es de gran importancia considerar la cultura empresarial, pero también distinguir que, no tiene nada que ver con los procesos productivos de la empresa, pero sí tiene un impacto directo en las cuestiones organizativas.</p>
+                <details>
+                    <summary>EJEMPLO</summary>
+                    <p>Una empresa de producción, que fabrica productos de dermatológicos para niños, seguirá produciendo este producto, y una empresa de consultoría, que se dedica al Marketing e investigación de mercado, seguirá ofreciendo este servicio, siempre que su negocio sea rentable.</p>
+                    <p class="mb-3 text-center"><br>¿Qué papel desempeña la cultura en la organización empresarial, entonces?</p>
+                    <p><br>La cultura corporativa regula cuestiones como la duración y la frecuencia de las reuniones, la prohibición o el permiso de fumar, los entretenimientos extralaborales y la formación de equipos, el código de vestimenta, las condiciones para el diálogo, el alcance de los informes, la misión y los objetivos de la empresa, la disciplina, la estrategia de apoyo, etc.</p>
+                </details>
+                <img src="assets/imgs/rules.png" class="width-100">
+                <h2 class="mb-3 text-center">Pasos recomendados para definir la cultura organizacional en una empresa.</h2>
+                <img src="assets/imgs/modelocambiocultural.png" class="width-100">
+
+                <div id="contenedor-video">
+                    <h4><br>¿Qué es el teambuilding?</h4>
+                    <p>El Team Building o "construcción de equipos", son usados por algunas empresas, es un término colectivo para definir un conjunto de actividades que busca formar equipos de alto desempeño y mejorar las relaciones interpersonales dentro de un grupo (trabajo en equipo, integración, creatividad e innovación).</p>
+                    <video id="mi-video" controls>
+                    <source src="assets/videos/Teambuilding.mp4" type="video/mp4">
+                    </video>
+                    <video id="mi-video" controls>
+                    <source src="assets/videos/Haciendoequipos.mp4" type="video/mp4">
+                    </video>
+                    </div>
+                    <img src="assets/imgs/chovey.png" class="width-100">
+                    <h2 class="mb-3 text-center"><br>Tipos de culturas corporativas.</h2>
+                    <img src="assets/imgs/Infografia.png" class="width-100">
+                    <h2 class="mb-3 text-center"><br>Consideraciones a tomar en una cultura organizacional.</h2>
+                    <p>Si la estructura de una empresa va más allá de las fronteras de un país, el modelo de la cultura corporativa actual en la sucursal extranjera siempre debe ser revisado y ajustado. Considerando después de todo, que lo que es bueno en un país puede no ser bueno para otro.
+
+                        <br>En cualquier caso, al implementar un modelo de cultura corporativa, se debe prestar atención no sólo a los aspectos específicos de la empresa, sino también a la ubicación geográfica de la empresa, el género, la edad y la condición social de los empleados. Después de todo, el esquema de relaciones corporativas, que funciona perfectamente en un equipo joven, no será efectivo en un equipo de personas de la familia o equipos adultos.
+                        
+                        <br>Con un enfoque competente, la cultura corporativa puede convertirse en un medio eficaz de gestión, de unificación de la organización y de establecimiento exitoso de la empresa en el mercado.</p>
+                        <img src="assets/imgs/culturaorganizacional.png" class="width-100">
+            </article>
+        </div> <!-- Contenido Video 4 --> 
         <div class="vid video-content vid05 width-100 display-none">
-            <h2 class="mb-3 text-center width-100">RECURSOS VIDEO 5</h2>
+            <h2 class="mb-3 text-center">La globalización y la administración</h2>
             <div> <!-- Presentación No. 5-->
-                <h4>Contenido del Video</h4>
+                <!--<h4>Contenido del Video</h4>
                 <div class="width-100 d-flex overflow-hidden slides-container ">
-                    <img src="assets/slides/vid05/MCS_IOTRB_vid05_sli01.jpg" class="width-100">
-                    <img src="assets/slides/vid05/MCS_IOTRB_vid05_sli02.jpg" class="width-100">
-                    <img src="assets/slides/vid05/MCS_IOTRB_vid05_sli03.jpg" class="width-100">
-                    <img src="assets/slides/vid05/MCS_IOTRB_vid05_sli04.jpg" class="width-100">
-                    <img src="assets/slides/vid05/MCS_IOTRB_vid05_sli05.jpg" class="width-100">
-                    <img src="assets/slides/vid05/MCS_IOTRB_vid05_sli06.jpg" class="width-100">
-                    <img src="assets/slides/vid05/MCS_IOTRB_vid05_sli07.jpg" class="width-100">
-                    <img src="assets/slides/vid05/MCS_IOTRB_vid05_sli08.jpg" class="width-100">
-                    <img src="assets/slides/vid05/MCS_IOTRB_vid05_sli09.jpg" class="width-100">
+                    <img src="assets/imgs/presentacion_sistemabierto_01.png" class="width-100">
+                    <img src="assets/imgs/presentacion_sistemabierto_02.png" class="width-100">
+                    <img src="assets/imgs/presentacion_sistemabierto_03.png" class="width-100">
+                    <img src="assets/imgs/presentacion_sistemabierto_04.png" class="width-100">
+                    <img src="assets/imgs/sistemaabierto5.png" class="width-100">
                 </div>
                 <div class="width-100 d-flex justify-content-between p-5">
                     <button style="border-radius: 25px;" class="previous-slide d-inline-block width-20 ar-4-1">	&#60;</button>
                     <button style="border-radius: 25px;" class="next-slide d-inline-block width-20 ar-4-1">&#62;</button>
-                </div>
-            </div><!-- Presentación No. 5-->
-        </div>
+                </div>-->
+                <article>
+                <p>La globalización y la administración están estrechamente relacionadas en el mundo empresarial y organizacional actual. La globalización se refiere al proceso de interconexión e interdependencia económica, social y cultural a nivel mundial, a través de la eliminación de barreras comerciales y de comunicación, lo que ha llevado a una mayor integración de los mercados y a la interacción entre diferentes culturas y países. Por otro lado, la administración se refiere a la planificación, organización, dirección y control de los recursos de una organización con el fin de lograr sus objetivos.</p>
+                <h2 class="mb-3 text-center">¿Qué integra la globalización?</h2>
+                <img src="assets/imgs/emrpesasygerentes.png" class="width-100">
+                <h2 class="mb-3 text-center">Proceso de globalización</h2>
+                <p>La globalización abarca todos los ámbitos, así que es posible señalar diferentes tipos de globalización:</p>
+                <img src="assets/imgs/economia.1.png" class="width-100">
+                <p><br>En la era de mercados globales, las empresas requieren habilidades para colocar productos estandarizados de mejor calidad y precio que los de competencia, lo que implica eficiente los procesos y utilizar economías de escala. Para las empresas, las normas y estándares mundiales señalan el marco de referencia de sus niveles de competitividad.</p>
+                <p><br>Las grandes empresas globales que invierten y se establecen en diversos países, son seguidas por sus proveedores, quienes también se establecen en los mismos lugares. Los sistemas de producción, distribución y consumo nacionales se fragmentan, y los sectores que no se integran a las cadenas de producción internacional en las empresas globalizadas desaparecen.</p>
+                <p><br>En el siguiente cuadro es posible observar cómo varían las funciones de la empresa de acuerdo con su evolución hacia la globalización.</p>
+                <p><br>La internacionalización y la globalización han modificado la forma de operación de las empresas y de las economías.</p>
+                <p><br>Internacionalización es la expansión de relaciones comerciales y económicas entre países.</p>
+                <p><br>La globalización parte de la idea de una economía sin fronteras donde los productos, el capital y las personas circulan libremente.</p>
+                <p><br>¿Qué deben hacer las empresas para adaptarse?</p>
+                <img src="assets/imgs/engranes.png" class="width-100">
+                <p><br>Los bloques económicos se conforman por la integración de varios países que constituyen una macrorregión económica y financiera.</p>
+                <img id="ante_icon" src="assets/imgs/Audio.1.png" style="width: 75px;">
+                <audio controls>
+                    <source preload="auto" src="assets/audios/Jeep.mp3" id="iframeAudio">
+                </audio>
+                <img src="assets/imgs/Untitled design.png" class="width-100">
+                <h2 class="mb-3 text-center">Efectos económicos de la globalización</h2>
+                <p><br> La globalización económica tiene aspectos positivos y negativos en los países.  Con la globalización, las organizaciones son capaces de cruzar las fronteras nacionales fácilmente gracias a la gran velocidad y bajo costo de las comunicaciones, transporte y sistemas de información actuales.</p>
+                <p><br>Las empresas ya no están limitadas a los recursos o al potencial de mercado de su país.</p>
+                <p><br> La competencia se centra no sólo en los precios, sino también en la calidad, nivel de servicio y rapidez en la entrega de bienes o servicios. Los sistemas de información permiten que las organizaciones compitan en el ambiente global, al facilitar la productividad, la calidad y la rapidez de respuesta.</p>
+                <p><br>Existe un rápido aumento de productos y servicios que necesitan mayor promoción; y los trabajadores calificados sustituyen a los que no se especializaron.</p>
+                <p><br>Así también surgen empresas basadas en la administración del conocimiento y las tecnologías de información. <br>A continuación, las ventajas y desventajas de la globalización.</p>
+                <img src="assets/imgs/ventajas.png" class="width-100">
+                <p><br>El éxito de una nación en la economía global no se determina por la cantidad de sus recursos naturales, sino por la calidad de sus recursos humanos. Un país no puede esperar ser competitivo sin una fuerza de trabajo capacitada y educada.</p>
+                <h2 class="mb-3 text-center">La pequeña y mediana empresa y la globalización.</h2>
+                <p><br>Si bien es cierto que la mayoría de las micro y pequeñas empresas no participan directamente en negocios internacionales, también lo es que está creciendo el número de pequeños negocios que funcionan como importadores o exportadores. <br> Las empresas que incursionan en el mercado global deben considerar que los factores:</p>
+                <img src="assets/imgs/velocidadcalida.png" class="width-100">
+                <p><br>Que son base del posicionamiento en el mercado global.</p>
+                <p><br>Las empresas requieren mayor eficiencia, calidad y productividad para ser más competitivas y poder competir en un mercado global que implica la participación en muchos mercados distintos y distantes. Crecen las oportunidades para quienes fabrican buenos productos y servicios, por lo que es necesario trabajar con estándares de calidad de clase mundial, y desaparecen para quienes operan con baja calidad.</p>
+                <img src="assets/imgs/caracterisc.png" class="width-100">
+                <img src="assets/imgs/admi.png" class="width-100">
+                <p><br>La tarea no es fácil; requiere, en el plano personal, visión, esfuerzo y constancia; y en el plano organizacional, operar con los factores básicos para afrontar la globalización:</p>
+                <img src="assets/imgs/GlobalizacionAdm.png" class="width-100">
+                <img src="assets/imgs/GlobalizacionAdm1.png" class="width-100">
+                <h2 class="mb-3 text-center">¿Qué es una impronta?</h2>
+                <p><br>Una impronta puede tener diferentes significados dependiendo del contexto en el que se utilice. Aquí te presento algunas de las posibles definiciones:</p>
 
-        <div class="vid video-content vid06 width-100 display-none">
-            <h2 class="mb-3 text-center">RECURSOS VIDEO 6</h2>
-            <div> <!-- Presentación No. 6-->
-                <h4>Contenido del Video</h4>
-                <div class="width-100 d-flex overflow-hidden slides-container ">
-                    <img src="assets/slides/vid06/MCS_IOTRB_vid06_sli01.jpg" class="width-100">
-                    <img src="assets/slides/vid06/MCS_IOTRB_vid06_sli02.jpg" class="width-100">
-                    <img src="assets/slides/vid06/MCS_IOTRB_vid06_sli03.jpg" class="width-100">
-                    <img src="assets/slides/vid06/MCS_IOTRB_vid06_sli04.jpg" class="width-100">
-                    <img src="assets/slides/vid06/MCS_IOTRB_vid06_sli05.jpg" class="width-100">
-                    <img src="assets/slides/vid06/MCS_IOTRB_vid06_sli06.jpg" class="width-100">
-                    <img src="assets/slides/vid06/MCS_IOTRB_vid06_sli07.jpg" class="width-100">
-                    <img src="assets/slides/vid06/MCS_IOTRB_vid06_sli08.jpg" class="width-100">
-                    <img src="assets/slides/vid06/MCS_IOTRB_vid06_sli09.jpg" class="width-100">
-                    <img src="assets/slides/vid06/MCS_IOTRB_vid06_sli10.jpg" class="width-100">
-                    <img src="assets/slides/vid06/MCS_IOTRB_vid06_sli11.jpg" class="width-100">
-                </div>
-                <div class="width-100 d-flex justify-content-between p-5">
-                    <button style="border-radius: 25px;" class="previous-slide d-inline-block width-20 ar-4-1">	&#60;</button>
-                    <button style="border-radius: 25px;" class="next-slide d-inline-block width-20 ar-4-1">&#62;</button>
-                </div>
-            </div><!-- Presentación No. 6-->
-        </div>
+                    <p><br>1. En biología y etología: La impronta es un proceso que ocurre en ciertas especies animales, especialmente aves y mamíferos, durante un período temprano de su vida, en el cual establecen un fuerte vínculo con una figura materna o un objeto determinado. Este proceso puede influir en su comportamiento y en su relación con su entorno posteriormente.</p>
+                    
+                    <p><br>2. En arte: La impronta se refiere a la marca, huella o señal que un artista deja en su obra, que puede ser su estilo distintivo o su firma. Es una forma de identificación del autor y de reconocimiento de su trabajo.</p>
+                    
+                    <p><br>3. En psicología: La impronta puede referirse a la huella que las experiencias tempranas de una persona dejan en su desarrollo psicológico y en su personalidad. Estas experiencias, especialmente durante la infancia, pueden tener un impacto duradero en la forma en que una persona percibe y se relaciona con el mundo.</p>
+                    
+                    <p><br>4. En tecnología: La impronta digital se refiere a la información única y específica que identifica a un dispositivo electrónico o a una actividad en línea. Esto puede incluir la dirección IP, el historial de navegación, las cookies, entre otros datos, que se utilizan para rastrear y reconocer la actividad en línea de una persona o dispositivo.</p>
+                    
+                    <p><br>En general, la impronta se refiere a una marca, huella o señal que queda como resultado de un proceso o experiencia, ya sea en biología, arte, psicología, tecnología u otros contextos.</p>
+                </article>
+            </div><!-- Presentación No. 5-->
+        </div> <!-- Contenido Video 5 -->
     </div>
     <footer>
     </footer>
