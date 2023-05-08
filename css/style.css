@@ -10330,3 +10330,6 @@ margin-top: 20px;
 body {
   overflow-x: hidden;
 }
+.image-container{
+  text-align: center;
+}
